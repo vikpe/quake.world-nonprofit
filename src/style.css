@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-[#0d1018] text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-['Roboto_Slab'] font-bold text-sky-300;
+  }
+
+  body {
+    background-image: url(https://github.githubassets.com/images/modules/site/home-campaign/footer-galaxy.jpg);
+    @apply bg-contain bg-no-repeat;
+  }
+
+  hr {
+    @apply bg-white/20 border-0 h-[1px];
+  }
+}
