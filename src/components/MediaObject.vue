@@ -14,8 +14,8 @@ const props = defineProps({
       class="h-14 w-14 mr-4"
     />
     <div class="space-y-1">
-      <h2 class="text-3xl">{{ props.title }}</h2>
-      <div class="text-lg">{{ props.description }}</div>
+      <h2 class="text-2xl">{{ props.title }}</h2>
+      <div class="">{{ props.description }}</div>
     </div>
   </div>
 </template>

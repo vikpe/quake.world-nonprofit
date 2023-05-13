@@ -7,12 +7,16 @@ import MediaObject from "./components/MediaObject.vue";
 <template>
   <div class="container mx-auto max-w-5xl space-y-3">
     <div class="my-10 space-y-4">
-      <div class="space-y-1">
+      <div class="space-y-3">
         <h1 class="text-5xl">Quake.World</h1>
-        <div>
-          A non-profit supporting critical parts of the QuakeWorld community
-        </div>
+        <div>A non-profit supporting the QuakeWorld community</div>
       </div>
+    </div>
+
+    <div
+      class="border-left border pl-8 border-purple-400/30 bg-gradient-to-r from-purple-600/10 p-6"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     </div>
 
     <div
@@ -154,6 +158,6 @@ import MediaObject from "./components/MediaObject.vue";
       <Supporters />
     </div>
 
-    <div class="my-10">asdasd</div>
+    <div class="py-6 opacity-50 text-sm">Quake.World</div>
   </div>
 </template>
