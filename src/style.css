@@ -4,14 +4,14 @@
 
 @layer base {
   html {
-    @apply bg-[#0d1018] text-white;
+    @apply bg-[#0d1018] font-['Roboto'] text-white;
   }
 
   h1,
   h2,
   h3,
   h4 {
-    @apply font-['Roboto_Slab'] font-bold text-sky-300;
+    @apply font-['Roboto_Slab'] font-bold;
   }
 
   body {
@@ -20,6 +20,6 @@
   }
 
   hr {
-    @apply bg-white/20 border-0 h-[1px];
+    @apply bg-gradient-to-r from-sky-600/20 via-sky-600/50 to-sky-600/20 border-0 h-[1px] my-10;
   }
 }

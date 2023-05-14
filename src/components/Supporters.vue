@@ -6,7 +6,7 @@ import * as _uniqby from "lodash.uniqby";
 const supporters = ref<OpenCollectiveUser[]>([]);
 
 async function getData() {
-  const res = await fetch("/assets/users.json");
+  const res = await fetch("/data/users.json");
   const allUsers: OpenCollectiveUser[] = await res.json();
 
   const backers = allUsers
@@ -31,14 +31,14 @@ getData();
           Supporters ({{ supporters.length }})
         </h2>
         <div class="text-pink-300 text-lg">
-          The following people have kindly donated funds to support QuakeWorld.
+          The following people have kindly donated money to support QuakeWorld.
         </div>
       </div>
     </div>
-    <div class="flex gap-4 font-bold">
+    <div class="flex gap-3">
       <div
         v-for="user in supporters"
-        class="flex items-center justify-center rounded-xl px-3 py-1 bg-sky-500/10 border border-white/10"
+        class="flex items-center justify-center rounded-xl px-3 py-1.5 bg-sky-500/10 border border-white/10"
       >
         {{ user.name }}
       </div>

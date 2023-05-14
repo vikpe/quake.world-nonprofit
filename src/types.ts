@@ -29,3 +29,9 @@ export interface User {
   name: string;
   cc: string;
 }
+
+export interface Link {
+  title: string;
+  url: string;
+  description?: string;
+}
