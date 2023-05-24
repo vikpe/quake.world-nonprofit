@@ -9,27 +9,5 @@
       "name": "valla",
       "cc": "se"
     }
-  },
-  {
-    "hostname": "fi.quake.world",
-    "country": {
-      "cc": "fi",
-      "name": "Finland"
-    },
-    "admin": {
-      "name": "Milton",
-      "cc": "fi"
-    }
-  },
-  {
-    "hostname": "se.quake.world",
-    "country": {
-      "cc": "se",
-      "name": "Sweden"
-    },
-    "admin": {
-      "name": "soum1",
-      "cc": "fi"
-    }
   }
 ]

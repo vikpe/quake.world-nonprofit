@@ -17,7 +17,7 @@ getData();
 <template>
   <div class="my-10 space-y-2">
     <MediaObject
-      description="High quality QuakeWorld servers across the globe."
+      description="High quality QuakeWorld servers."
       title="Servers"
     />
     <div>

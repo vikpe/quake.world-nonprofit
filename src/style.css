@@ -22,4 +22,11 @@
   hr {
     @apply bg-gradient-to-r from-sky-600/20 via-sky-600/50 to-sky-600/20 border-0 h-[1px] my-10;
   }
+
+  .debug {
+    @apply border border-red-500;
+  }
+  .debug > * {
+    @apply border border-yellow-500;
+  }
 }
