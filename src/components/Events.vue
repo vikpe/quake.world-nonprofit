@@ -9,7 +9,7 @@ import MediaObject from "./MediaObject.vue";
       title="QHLAN"
     />
     <a
-      class="flex items-center p-3 border-white/10 bg-gradient-to-b from-amber-700 to-amber-800 hover:bg-amber-700 text-white rounded-xl font-bold"
+      class="flex items-center p-3 bg-gradient-to-b from-amber-700 to-amber-800 hover:bg-amber-700 text-white rounded-xl font-bold opacity-80 hover:opacity-100"
       href="https://qhlan.org/"
       >Visit QHLAN
       <img

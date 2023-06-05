@@ -8,16 +8,43 @@ import Events from "./components/Events.vue";
 
 <template>
   <div class="container mx-auto max-w-6xl">
-    <div
-      class="my-4 py-4"
-      style="
-        background: url(/assets/img/quake_ranger.png) no-repeat left center;
-        background-size: contain;
-      "
-    >
-      <div class="space-y-3 ml-24">
-        <h1 class="text-5xl">Quake.World</h1>
-        <div class="text-lg font-bold">A non-profit supporting QuakeWorld</div>
+    <div class="md:flex justify-between my-4">
+      <div
+        class="py-4 px-2"
+        style="
+          background: url(/assets/img/quake_ranger.png) no-repeat left center;
+          background-size: contain;
+        "
+      >
+        <div class="space-y-2 ml-24">
+          <h1 class="text-5xl">Quake.World</h1>
+          <div class="font-bold">A non-profit supporting QuakeWorld</div>
+        </div>
+      </div>
+      <div class="flex gap-4 m-4">
+        <div>
+          <a
+            class="bg-white/10 rounded-xl p-1 pr-2 flex items-center opacity-70 hover:opacity-100"
+            href="http://discord.quake.world/"
+            title="Quake.World Discord"
+          >
+            <img class="w-8 h-8 mr-0.5" src="/assets/img/logos/discord.svg" />
+            Discord
+          </a>
+        </div>
+        <div>
+          <a
+            class="bg-white/10 rounded-xl p-1 pr-2 flex items-center opacity-70 hover:opacity-100"
+            href="https://opencollective.com/quakeworld"
+            title="Quake.World Open Collective"
+          >
+            <img
+              class="w-8 h-8 mr-0.5"
+              src="/assets/img/logos/open_collective.svg"
+            />
+            Open Collective
+          </a>
+        </div>
       </div>
     </div>
 

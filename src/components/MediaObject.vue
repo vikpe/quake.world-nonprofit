@@ -7,7 +7,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="flex items-center">
+  <div class="flex">
     <img
       v-if="props.icon"
       :src="`/assets/img/icons/${props.icon}.png`"

@@ -10,7 +10,7 @@ import MediaObject from "./MediaObject.vue";
         title="Twitch Stream"
       />
       <a
-        class="flex items-center p-3 border-white/10 text-white rounded-xl font-bold justify-center my-6 sm:my-0 bg-gradient-to-b from-purple-700 to-purple-800 hover:bg-purple-700"
+        class="flex items-center p-3 text-white rounded-xl font-bold justify-center my-6 sm:my-0 bg-gradient-to-b from-purple-700 to-purple-800 hover:bg-purple-700 opacity-80 hover:opacity-100"
         href="https://www.twitch.tv/quakeworld"
         >Watch now
         <img
