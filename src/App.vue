@@ -18,7 +18,7 @@ import Events from "./components/Events.vue";
       >
         <div class="space-y-2 ml-24">
           <h1 class="text-5xl">Quake.World</h1>
-          <div class="font-bold text-gray-300">
+          <div class="text-lg text-gray-300">
             A non-profit supporting QuakeWorld
           </div>
         </div>
