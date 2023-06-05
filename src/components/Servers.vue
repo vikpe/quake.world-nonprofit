@@ -16,18 +16,21 @@ getData();
 
 <template>
   <div class="my-10 space-y-2">
-    <MediaObject
-      description="High quality QuakeWorld servers."
-      title="Servers"
-    />
+    <div class="text-blue-200">
+      <MediaObject
+        color="text-blue-400"
+        description="High quality QuakeWorld servers"
+        title="Servers"
+      />
+    </div>
     <div>
-      <table class="border border-white/10 text-left my-6">
-        <tbody class="border border-white/10">
+      <table class="text-left my-6">
+        <tbody>
           <tr v-for="server in servers">
-            <td class="p-2">
+            <td class="p-1">
               <Flag :cc="server.country.cc" />
             </td>
-            <td class="p-2">
+            <td class="p-1">
               <code>{{ server.hostname }}</code>
             </td>
           </tr>

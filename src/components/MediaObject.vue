@@ -7,14 +7,14 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="flex items-center my-6">
+  <div class="flex items-center">
     <img
       v-if="props.icon"
-      :src="`/assets/icons/${props.icon}.svg`"
+      :src="`/assets/img/icons/${props.icon}.png`"
       alt=""
       class="h-14 w-14 mr-4"
     />
-    <div class="space-y-1">
+    <div class="space-y-0.5">
       <h2 :class="props.color" class="text-2xl">{{ props.title }}</h2>
       <div v-if="props.description" class="text-lg">
         {{ props.description }}

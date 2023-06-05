@@ -14,11 +14,6 @@
     @apply font-['Roboto_Slab'] font-bold;
   }
 
-  body {
-    background-image: url(https://github.githubassets.com/images/modules/site/home-campaign/footer-galaxy.jpg);
-    @apply bg-contain bg-no-repeat;
-  }
-
   hr {
     @apply bg-gradient-to-r from-sky-600/20 via-sky-600/50 to-sky-600/20 border-0 h-[1px] my-10;
   }

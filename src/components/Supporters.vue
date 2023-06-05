@@ -19,12 +19,12 @@ getData();
 </script>
 
 <template>
-  <div class="my-10">
+  <div class="m-8">
     <div class="flex items-center my-6">
       <img
         alt=""
         class="h-14 w-14 mr-4 animate-pulse"
-        src="/assets/icons/favorite.svg"
+        src="/assets/img/icons/favorite.svg"
       />
       <div class="space-y-1">
         <h2 class="text-3xl text-pink-500">

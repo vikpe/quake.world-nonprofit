@@ -22,14 +22,6 @@
     </div>
 
     <div>
-      <div class="font-bold">Websites</div>
-      <ul class="list-disc ml-5">
-        <li>QuakeWorld.nu</li>
-        <li>QuakeWorld GFX</li>
-      </ul>
-    </div>
-
-    <div>
       <div class="font-bold">Software</div>
       <ul class="list-disc ml-5">
         <li>ezQuake</li>

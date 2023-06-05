@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{vue,ts}"
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+      }
+    }
   },
   plugins: [],
 }
