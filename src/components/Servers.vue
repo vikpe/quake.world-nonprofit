@@ -15,7 +15,13 @@ getData();
 </script>
 
 <template>
-  <div>
+  <div
+    class="mb-6 md:mb-0 px-8 py-6 border border-sky-600/20"
+    style="
+      background: #040d21 url(/assets/img/globe.jpg) no-repeat right center;
+      background-size: contain;
+    "
+  >
     <div class="text-blue-200">
       <MediaObject
         color="text-blue-400"

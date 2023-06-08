@@ -19,8 +19,8 @@ getData();
 </script>
 
 <template>
-  <div class="m-8">
-    <div class="my-6 sm:flex items-center justify-between">
+  <div class="p-8 border border-pink-600/20 bg-pink-600/10">
+    <div class="sm:flex items-center justify-between">
       <div class="flex items-center">
         <img
           alt=""
@@ -47,7 +47,7 @@ getData();
           src="/assets/img/icons/arrow_forward_ios.svg"
       /></a>
     </div>
-    <div class="flex flex-wrap gap-3">
+    <div class="flex flex-wrap gap-3 mt-6">
       <div
         v-for="user in supporters"
         class="flex items-center justify-center rounded-xl px-3 py-1.5 bg-sky-500/10 border border-white/10"
