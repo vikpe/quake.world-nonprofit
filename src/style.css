@@ -10,7 +10,8 @@
   h1,
   h2,
   h3,
-  h4 {
+  h4,
+  .app-font-slab {
     @apply font-['Roboto_Slab'] font-bold;
   }
 
