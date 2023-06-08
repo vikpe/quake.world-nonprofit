@@ -24,7 +24,9 @@ import MediaObject from "./MediaObject.vue";
       <img
         alt="QuakeWorld Twitch Stream"
         class="max-w-full border border-white/20 mx-auto shadow-xl shadow-purple-500/50 mb-16"
-        src="/assets/img/twitch_quakeworld.png"
+        height="515"
+        src="/assets/img/twitch_quakeworld.jpg"
+        width="985"
       />
     </a>
   </div>
