@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import Supporters from "#/components/Supporters.vue";
-import Servers from "#/components/Servers.vue";
-import Streams from "#/components/Streams.vue";
-import Events from "#/components/Events.vue";
+import Supporters from "./components/Supporters.vue";
+import Servers from "./components/Servers.vue";
+import Streams from "./components/Streams.vue";
+import Events from "./components/Events.vue";
 </script>
 
 <template>

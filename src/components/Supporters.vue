@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-import { OpenCollectiveUser } from "#/types.ts";
-import * as _uniqby from "lodash.uniqby";
+import { OpenCollectiveUser } from "./../types.ts";
+import uniqBy from "lodash.uniqby";
 
 const supporters = ref<OpenCollectiveUser[]>([]);
 
@@ -12,7 +12,7 @@ async function getData() {
   const backers = allUsers
     .filter((u) => u.role === "BACKER")
     .sort((a, b) => (a.totalAmountDonated > b.totalAmountDonated ? -1 : 0));
-  supporters.value = _uniqby(backers, "name");
+  supporters.value = uniqBy(backers, "name");
 }
 
 getData();

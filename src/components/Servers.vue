@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-import { Server } from "#/types.ts";
+import { Server } from "./../types.ts";
 import Flag from "./Flag.vue";
 import MediaObject from "./MediaObject.vue";
 
