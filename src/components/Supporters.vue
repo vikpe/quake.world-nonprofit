@@ -20,18 +20,18 @@ getData();
 
 <template>
   <div class="m-8">
-    <div class="my-6 flex items-center justify-between">
+    <div class="my-6 sm:flex items-center justify-between">
       <div class="flex items-center">
         <img
           alt=""
           class="h-14 w-14 mr-4 animate-pulse"
           src="/assets/img/icons/favorite.svg"
         />
-        <div class="space-y-0.5">
-          <h2 class="text-3xl text-pink-500">
+        <div>
+          <h2 class="text-3xl text-pink-500 mb-0.5">
             Supporters ({{ supporters.length }})
           </h2>
-          <div class="text-pink-300 text-lg">
+          <div class="text-pink-300 sm:text-lg">
             The following people have kindly donated money to support
             QuakeWorld.
           </div>
@@ -47,7 +47,7 @@ getData();
           src="/assets/img/icons/arrow_forward_ios.svg"
       /></a>
     </div>
-    <div class="flex gap-3">
+    <div class="flex flex-wrap gap-3">
       <div
         v-for="user in supporters"
         class="flex items-center justify-center rounded-xl px-3 py-1.5 bg-sky-500/10 border border-white/10"

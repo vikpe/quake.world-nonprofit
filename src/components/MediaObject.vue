@@ -16,7 +16,7 @@ const props = defineProps({
     />
     <div class="space-y-0.5">
       <h2 :class="props.color" class="text-2xl">{{ props.title }}</h2>
-      <div v-if="props.description" class="text-lg">
+      <div v-if="props.description" class="sm:text-lg">
         {{ props.description }}
       </div>
     </div>

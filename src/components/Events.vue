@@ -2,14 +2,14 @@
 import MediaObject from "./MediaObject.vue";
 </script>
 <template>
-  <div class="flex justify-between items-center text-orange-100">
+  <div class="sm:flex justify-between items-center text-orange-100">
     <MediaObject
       color="text-orange-400"
       description="The legendary QuakeWorld LAN"
       title="QHLAN"
     />
     <a
-      class="flex items-center p-3 bg-gradient-to-b from-amber-700 to-amber-800 hover:bg-amber-700 text-white rounded-xl font-bold opacity-80 hover:opacity-100"
+      class="flex items-center justify-center mt-6 p-3 bg-gradient-to-b from-amber-700 to-amber-800 hover:bg-amber-700 text-white rounded-xl font-bold opacity-80 hover:opacity-100"
       href="https://qhlan.org/"
       >Visit QHLAN
       <img
