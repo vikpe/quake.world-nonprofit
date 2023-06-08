@@ -15,7 +15,7 @@ getData();
 </script>
 
 <template>
-  <div class="my-10 space-y-2">
+  <div>
     <div class="text-blue-200">
       <MediaObject
         color="text-blue-400"
@@ -23,8 +23,8 @@ getData();
         title="Servers"
       />
     </div>
-    <div>
-      <table class="text-left my-6">
+    <div class="mt-4 text-left">
+      <table>
         <tbody>
           <tr v-for="server in servers">
             <td class="p-1">
