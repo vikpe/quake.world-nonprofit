@@ -16,7 +16,7 @@ getData();
 
 <template>
   <div
-    class="mb-6 md:mb-0 px-8 py-6 border border-sky-600/20"
+    class="mb-6 md:mb-0 px-8 py-6 border border-sky-600/30"
     style="
       background: #040d21 url(/assets/img/globe.jpg) no-repeat right center;
       background-size: contain;

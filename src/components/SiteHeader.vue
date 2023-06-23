@@ -1,3 +1,4 @@
+<script lang="ts" setup></script>
 <template>
   <div class="sm:flex justify-between">
     <div
@@ -18,22 +19,17 @@
     </div>
     <div class="flex items-center my-4">
       <a
-        class="bg-sky-300/10 hover:bg-sky-300/20 rounded p-2 flex items-center border border-sky-300/10 opacity-70 hover:opacity-100"
+        class="flex items-center p-2 justify-between border border-blue-300/20 hover:border-blue-300/20 bg-gradient-to-b from-blue-600/40 to-blue-600/20 opacity-70 hover:opacity-100 lg:rounded"
         href="https://opencollective.com/quakeworld"
         title="Quake.World Open Collective"
       >
         <img class="w-8 h-8" src="/assets/img/logos/open_collective.svg" />
         <span class="ml-0.5 pr-1.5 app-font-slab">Open Collective</span>
         <img
-          class="w-4 h-4 opacity-50"
+          class="w-4 h-4 opacity-70"
           src="/assets/img/icons/arrow_forward_ios.svg"
         />
       </a>
     </div>
   </div>
 </template>
-<script>
-export default {
-  name: "SiteHeader",
-};
-</script>

@@ -19,7 +19,7 @@ getData();
 </script>
 
 <template>
-  <div class="p-8 border border-pink-600/20 bg-pink-600/10">
+  <div class="p-8 border border-pink-600/30 bg-pink-600/10">
     <div class="sm:flex items-center justify-between">
       <div class="flex items-center">
         <img

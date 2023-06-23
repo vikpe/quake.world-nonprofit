@@ -7,10 +7,10 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="flex">
+  <div class="flex items-center">
     <img
       v-if="props.icon"
-      :src="`/assets/img/icons/${props.icon}.png`"
+      :src="`/assets/img/${props.icon}`"
       alt=""
       class="h-14 w-14 mr-4"
     />

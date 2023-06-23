@@ -3,7 +3,7 @@ import MediaObject from "./MediaObject.vue";
 </script>
 <template>
   <div
-    class="px-8 py-6 border border-amber-600/10 bg-gradient-to-b from-amber-600/5 to-amber-600/10"
+    class="px-8 py-6 border border-amber-600/20 bg-gradient-to-b from-amber-600/5 to-amber-600/10"
   >
     <div class="sm:flex justify-between items-center text-orange-100">
       <MediaObject

@@ -3,12 +3,13 @@ import MediaObject from "./MediaObject.vue";
 </script>
 <template>
   <div
-    class="p-8 border border-purple-600/20 bg-gradient-to-b from-purple-600/10 via-purple-600/20 to-purple-600/10 text-purple-200"
+    class="p-8 border border-purple-600/30 bg-gradient-to-b from-purple-600/10 via-purple-600/20 to-purple-600/10 text-purple-200"
   >
     <div class="sm:flex justify-between items-center">
       <MediaObject
         color="text-purple-400"
         description="Watch QuakeWorld non-stop, from anywhere, on any device."
+        icon="logos/twitch.svg"
         title="Twitch Stream"
       />
       <a
@@ -25,7 +26,7 @@ import MediaObject from "./MediaObject.vue";
     <a class="block my-6" href="https://www.twitch.tv/quakeworld">
       <img
         alt="QuakeWorld Twitch Stream"
-        class="max-w-full border border-white/20 mx-auto shadow-xl shadow-purple-500/50"
+        class="max-w-full border border-white/20 mx-auto shadow-xl shadow-purple-500/50 hover:shadow-purple-500 transition-shadow"
         height="515"
         src="/assets/img/twitch_quakeworld.jpg"
         width="985"
