@@ -6,7 +6,9 @@ import uniqBy from "lodash.uniqby";
 const supporters = ref<OpenCollectiveUser[]>([]);
 
 async function getData() {
-  const res = await fetch("/data/users.json");
+  const res = await fetch(
+    "https://opencollective.com/quakeworld/members/all.json"
+  );
   const allUsers: OpenCollectiveUser[] = await res.json();
 
   const backers = allUsers
