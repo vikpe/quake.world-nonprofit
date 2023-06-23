@@ -27,6 +27,7 @@ import MediaObject from "./MediaObject.vue";
       class="max-w-full"
       height="354"
       src="/assets/img/logos/qhlan2024_logo.png"
+      width="576"
     />
   </div>
 </template>
