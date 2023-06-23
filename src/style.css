@@ -16,7 +16,7 @@
   }
 
   hr {
-    @apply bg-gradient-to-r from-sky-600/20 via-sky-600/50 to-sky-600/20 border-0 h-[1px];
+    @apply bg-gradient-to-r from-sky-600/30 via-sky-600/60 to-sky-600/30 border-0 h-[1px];
   }
 
   .debug {
