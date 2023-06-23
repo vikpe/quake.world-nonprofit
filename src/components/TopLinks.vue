@@ -1,67 +1,48 @@
+<script lang="ts" setup>
+const links = [
+  {
+    title: "Discord",
+    description: "Community with 4000+ members",
+    url: "http://discord.quake.world/",
+    logo: "discord.svg",
+  },
+  {
+    title: "Hub",
+    description: "Live games, streams and events",
+    url: "https://hub.quakeworld.nu/",
+    logo: "quakeworld_hub.png",
+  },
+  {
+    title: "Wiki",
+    description: "Everything QuakeWorld",
+    url: "https://wiki.quakeworld.nu",
+    logo: "wiki.png",
+  },
+];
+</script>
 <template>
-  <div class="lg:grid mb-6 grid-cols-3 gap-6">
+  <div class="lg:grid mb-6 grid-cols-3 gap-4 space-y-2 lg:space-y-0">
     <a
-      class="flex items-center p-4 justify-between border border-sky-300/10 bg-sky-600/10 hover:bg-sky-600/20 opacity-70 hover:opacity-100 rounded"
-      href="http://discord.quake.world/"
+      v-for="link in links"
+      :key="link.title"
+      :href="link.url"
+      class="flex items-center p-4 justify-between border-2 border-blue-300/20 hover:border-blue-300/20 bg-gradient-to-b from-blue-600/40 to-blue-600/20 opacity-70 hover:opacity-100 lg:rounded"
     >
       <div class="flex items-center">
-        <img class="h-10 mr-4" src="/assets/img/logos/discord.svg" />
-        <div>
-          <div class="app-font-slab">Discord</div>
-          <div class="text-sm text-gray-300">Join 4000+ fellow Quakers</div>
-        </div>
-      </div>
-
-      <img
-        class="w-5 h-5 opacity-50"
-        src="/assets/img/icons/arrow_forward_ios.svg"
-      />
-    </a>
-
-    <a
-      class="flex items-center p-4 justify-between border border-sky-300/10 bg-sky-600/10 hover:bg-sky-600/20 opacity-70 hover:opacity-100 rounded"
-      href="http://hub.quakeworld.nu/"
-    >
-      <div class="flex items-center">
-        <img
-          class="h-5 lg:h-10 mr-4"
-          src="/assets/img/logos/quakeworld_hub.png"
+        <div
+          :style="`background-image: url(/assets/img/logos/${link.logo})`"
+          class="h-10 w-10 mr-4 bg-contain bg-no-repeat bg-center"
         />
         <div>
-          <div class="app-font-slab">Hub</div>
-          <div class="text-sm text-gray-300">
-            Live games, streams and events
-          </div>
+          <div class="app-font-slab">{{ link.title }}</div>
+          <div class="text-sm text-gray-300">{{ link.description }}</div>
         </div>
       </div>
 
       <img
-        class="w-5 h-5 opacity-50"
-        src="/assets/img/icons/arrow_forward_ios.svg"
-      />
-    </a>
-
-    <a
-      class="flex items-center p-4 justify-between border border-sky-300/10 bg-sky-600/10 hover:bg-sky-600/20 opacity-70 hover:opacity-100 rounded"
-      href="http://wiki.quakeworld.nu/"
-    >
-      <div class="flex items-center">
-        <img class="h-10 mr-4" src="/assets/img/logos/wiki.png" />
-        <div>
-          <div class="app-font-slab">Wiki</div>
-          <div class="text-sm text-gray-300">Everything QuakeWorld</div>
-        </div>
-      </div>
-
-      <img
-        class="w-5 h-5 opacity-50"
+        class="w-5 h-5 opacity-70"
         src="/assets/img/icons/arrow_forward_ios.svg"
       />
     </a>
   </div>
 </template>
-<script>
-export default {
-  name: "TopLinks",
-};
-</script>
