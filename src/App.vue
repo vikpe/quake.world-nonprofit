@@ -9,7 +9,7 @@ import TopLinks from "./components/TopLinks.vue";
 </script>
 
 <template>
-  <div class="container max-w-6xl">
+  <div class="container min-w-[340px] max-w-6xl">
     <SiteHeader />
 
     <div class="space-y-6">
