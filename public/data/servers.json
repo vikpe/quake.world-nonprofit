@@ -1,9 +1,10 @@
 [
   {
     "hostname": "de.quake.world",
-    "country": {
+    "location": {
       "cc": "de",
-      "name": "Germany"
+      "name": "Germany",
+      "city": "Frankfurt"
     },
     "admin": {
       "name": "STALKERRH",
@@ -12,9 +13,10 @@
   },
   {
     "hostname": "dk.quake.world",
-    "country": {
+    "location": {
       "cc": "dk",
-      "name": "Denmark"
+      "name": "Denmark",
+      "city": "Copenhagen"
     },
     "admin": {
       "name": "valla",
@@ -23,9 +25,10 @@
   },
   {
     "hostname": "nl.quake.world",
-    "country": {
+    "location": {
       "cc": "nl",
-      "name": "Netherlands"
+      "name": "Netherlands",
+      "city": "Amsterdam"
     },
     "admin": {
       "name": "STALKERRH",
