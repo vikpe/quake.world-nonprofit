@@ -19,12 +19,12 @@
     </div>
     <div class="flex items-center my-4">
       <a
-        class="flex items-center p-2 justify-between border border-blue-300/20 hover:border-blue-300/20 bg-gradient-to-b from-blue-600/40 to-blue-600/20 opacity-70 hover:opacity-100 lg:rounded"
+        class="flex items-center p-2 justify-between border border-sky-700 bg-gradient-to-b from-sky-800 to-sky-900 hover:bg-sky-800 opacity-80 hover:opacity-100 rounded"
         href="https://opencollective.com/quakeworld"
         title="Quake.World Open Collective"
       >
         <img class="w-8 h-8" src="/assets/img/logos/open_collective.svg" />
-        <span class="ml-0.5 pr-1.5 app-font-slab">Open Collective</span>
+        <span class="ml-0.5 pr-1.5 app-font-slab">Support us!</span>
         <img
           class="w-4 h-4 opacity-70"
           src="/assets/img/icons/arrow_forward_ios.svg"
