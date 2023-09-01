@@ -1,5 +1,16 @@
 [
   {
+    "hostname": "de.quake.world",
+    "country": {
+      "cc": "de",
+      "name": "Germany"
+    },
+    "admin": {
+      "name": "STALKERRH",
+      "cc": "no"
+    }
+  },
+  {
     "hostname": "dk.quake.world",
     "country": {
       "cc": "dk",
@@ -8,6 +19,17 @@
     "admin": {
       "name": "valla",
       "cc": "se"
+    }
+  },
+  {
+    "hostname": "nl.quake.world",
+    "country": {
+      "cc": "nl",
+      "name": "Netherlands"
+    },
+    "admin": {
+      "name": "STALKERRH",
+      "cc": "no"
     }
   }
 ]
