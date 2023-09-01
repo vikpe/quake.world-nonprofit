@@ -20,7 +20,7 @@
     <div class="flex items-center my-4">
       <a
         class="flex items-center p-2 justify-between border border-sky-700 bg-gradient-to-b from-sky-800 to-sky-900 hover:bg-sky-800 opacity-80 hover:opacity-100 rounded"
-        href="https://opencollective.com/quakeworld"
+        href="https://opencollective.com/quakeworld/donate"
         title="Quake.World Open Collective"
       >
         <img class="w-8 h-8" src="/assets/img/logos/open_collective.svg" />
