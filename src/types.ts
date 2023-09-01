@@ -22,7 +22,10 @@ export interface OpenCollectiveUser {
 export interface Server {
     hostname: string;
     location: Location;
-    admin: User;
+    admin: {
+        name: string;
+        cc: string;
+    };
 }
 
 export interface Location {
