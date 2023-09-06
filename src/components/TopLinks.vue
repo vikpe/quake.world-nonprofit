@@ -3,7 +3,7 @@ const links = [
   {
     title: "Discord",
     description: "Community with 4000+ members",
-    url: "http://discord.quake.world/",
+    url: "https://discord.com/invite/quake-world-166866762787192833",
     logo: "discord.svg",
   },
   {
