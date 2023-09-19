@@ -41,8 +41,8 @@ getData();
       </div>
       <a
         class="flex items-center p-3 text-white rounded-xl font-bold justify-center my-6 sm:my-0 bg-gradient-to-b from-pink-700 to-pink-800 hover:bg-pink-700 opacity-80 hover:opacity-100"
-        href="https://opencollective.com/quakeworld"
-        >Support now
+        href="https://opencollective.com/quakeworld/donate"
+        >Donate
         <img
           alt=""
           class="w-4 h-4 ml-2"

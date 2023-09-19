@@ -24,7 +24,7 @@
         title="Quake.World Open Collective"
       >
         <img class="w-8 h-8" src="/assets/img/logos/open_collective.svg" />
-        <span class="ml-0.5 pr-1.5 app-font-slab">Support us!</span>
+        <span class="ml-0.5 pr-1.5 app-font-slab">Donate</span>
         <img
           class="w-4 h-4 opacity-70"
           src="/assets/img/icons/arrow_forward_ios.svg"
