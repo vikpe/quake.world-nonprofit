@@ -34,5 +34,17 @@
       "name": "STALKERRH",
       "cc": "no"
     }
+  },
+  {
+    "hostname": "quake.se",
+    "location": {
+      "cc": "se",
+      "name": "Sweden",
+      "city": "Stockholm"
+    },
+    "admin": {
+      "name": "soum1",
+      "cc": "fi"
+    }
   }
 ]
