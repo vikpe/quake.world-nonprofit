@@ -13,7 +13,7 @@
           Quake<span class="text-sky-400">.</span>World
         </h1>
         <div class="text-sky-200 text-sm sm:text-base">
-          a non-profit supporting QuakeWorld
+          a non-profit supporting the QuakeWorld community
         </div>
       </div>
     </div>
