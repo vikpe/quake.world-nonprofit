@@ -36,6 +36,30 @@
     }
   },
   {
+    "hostname": "la.quake.world",
+    "location": {
+      "cc": "us",
+      "name": "USA",
+      "city": "Los Angeles"
+    },
+    "admin": {
+      "name": "BLooD_DoG",
+      "cc": "ca"
+    }
+  },
+  {
+    "hostname": "ny.quake.world",
+    "location": {
+      "cc": "us",
+      "name": "USA",
+      "city": "New York"
+    },
+    "admin": {
+      "name": "BLooD_DoG",
+      "cc": "ca"
+    }
+  },
+  {
     "hostname": "quake.se",
     "location": {
       "cc": "se",
